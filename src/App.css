@@ -1,0 +1,160 @@
+body{
+    background-image: url(components/assets/checkered.jpg);
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+}
+.title{
+    color: whitesmoke;
+    font-size: 8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.deck{
+ display: grid;
+}
+
+.heroleft{
+    width: 30em;
+    height: 40em; 
+    margin-top: 5em;
+    padding-right: 0%;
+    contain: content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contentright{
+    width: 60em;
+    height: 40em;
+    margin-top: 5em;
+    background: rgb(12, 11, 11);
+    padding-left: 0%;
+    color: azure;
+}
+
+.btn-primary{
+    background-color: #F3C53C;
+    border-radius: 20% 50% 50% 20%;
+    color: black;
+}
+
+.group1{
+    margin-top:  5em;
+}
+
+.card{
+    margin-top: 5rem;
+    border-radius: 0% 0% 20% 0%;
+    box-shadow: 10px 10px 10px #F3C53C;
+    background-color: black;
+    
+
+}
+.cardbody{
+    color:white
+}
+
+.navbar{
+    background-color: #F3C53C;
+}
+
+.authorphoto{
+    background-color: black;
+    border-radius: 50%;
+    contain: content;
+    text-align: center;
+    height: 20rem;
+    width: 20rem;
+    padding:0em;
+}
+.authorinfo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: auto;
+    width: 20rem;
+}
+.carouselContainer{
+margin-top: 5em;
+height: 40em;
+width: 50em;
+contain: content;
+}
+
+.homeContent{
+    margin-top: 3em;
+    height: 10em;
+    width: 90%;
+    contain: content;
+    background-color: black;
+    color: white;
+    text-align: center;
+    }
+    
+.homeContent2{
+    margin-top: 3em;
+    height: 10em;
+    width: 50%;
+    contain: content;
+    background-color: black;
+    color: white;
+    text-align: center;
+        }
+        
+    
+
+.contact{
+    background-color: black;
+    color: white;
+    margin-top: 5em;
+}
+
+.footer{
+    margin-top: 10em;
+    background-color: #F3C53C;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+}
+
+.image1{
+    overflow: hidden;
+    height: 15rem;
+    width: 15rem;
+}
+
+.riseimage{
+    background-image: url(./components/assets/risehero.jpg) ;
+}
+
+.antiimage{
+    background-image: url(./components/assets/antihero.jpg);
+}
+
+.ramonesimage{
+    background-image: url(./components/assets/ramoneshero.jpg);
+}
+
+.streetimage{
+    background-image: url(./components/assets/streethero.jpg);
+}
+
+.reelimage{
+    background-image: url(./components/assets/reelhero.jpg);
+}
+
+.adtrimage{
+    background-image: url(./components/assets/adtrhero.jpg);
+}
+
+.sumimage{
+    background-image: url(./components/assets/sumhero.jpg);
+}
+
+.rancidimage{
+    background-image: url(./components/assets/rancidhero.jpg);
+}
